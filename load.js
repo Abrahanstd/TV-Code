@@ -1,5 +1,8 @@
-const link = document.createElement("a");
-link.innerText = "grapes";
-link.href = "https://en.wikipedia.org/wiki/Grape";
-link.title = "Wikipedia page on grapes";
+var newDiv = document.createElement("div");
+  var newContent = document.createTextNode("Hola!¿Qué tal?");
+  newDiv.appendChild(newContent); //añade texto al div creado.
+
+  // añade el elemento creado y su contenido al DOM
+  var currentDiv = document.getElementById("div1");
+  document.body.insertBefore(newDiv, currentDiv);
 alert("xD");
