@@ -1,2 +1,2 @@
-window.document.title = "Tu titulo";
+document.title = "Nuevo Título de Página";
 alert("xD");
