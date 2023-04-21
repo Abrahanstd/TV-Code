@@ -1,1 +1,0 @@
-Android.loadget("rokoooooooo");
